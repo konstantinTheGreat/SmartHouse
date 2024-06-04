@@ -1,2 +1,7 @@
-package org.example.repository;public class SmartHouseRepositoryImpl {
+package org.example.repository.SmartHouseRepositoryImpl;
+
+import org.example.repository.SmartHouseRepository;
+
+public class SmartHouseRepositoryImpl implements SmartHouseRepository {
+    //todo
 }

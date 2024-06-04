@@ -5,34 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2ac89c9-02c8-4199-ab4e-91af77ac3446" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/TxtException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception/TxtException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstract_factory/SmartHouseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstract_factory/SmartHouseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/abstract_factory/smartHouseFactoryImpl/SmartHouseFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/abstract_factory/smartHouseFactoryImpl/SmartHouseFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fileDeviceReader/DeviceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fileDeviceReader/DeviceReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fileDeviceReader/DeviceReaderImpl/DeviceReaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fileDeviceReader/DeviceReaderImpl/DeviceReaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/SmartHouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/SmartHouseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/SmartHouseRepositoryImpl/SmartHouseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/SmartHouseRepositoryImpl/SmartHouseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/curtain/Curtain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/curtain/Curtain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/curtain/curtainImpl/CurtainImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/curtain/curtainImpl/CurtainImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/lightLevel/LightLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/lightLevel/LightLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/lightLevel/lightLevelImpl/LightLevelImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/lightLevel/lightLevelImpl/LightLevelImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/tempImpl/TempAirImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/tempImpl/TempAirImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/tempImpl/TempFloorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/smart_house_inventory/temp/tempImpl/TempFloorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/state/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2hKPLlamt8wwqDHMRk1MwCSful4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717339745419</updated>
-      <workItem from="1717339746845" duration="4000" />
+      <workItem from="1717339746845" duration="14120000" />
+      <workItem from="1717490294332" duration="755000" />
     </task>
     <servers />
   </component>

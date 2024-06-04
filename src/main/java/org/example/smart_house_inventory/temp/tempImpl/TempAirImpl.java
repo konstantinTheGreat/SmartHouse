@@ -1,7 +1,7 @@
-package org.example.smart_house_inventory.tempImpl;
+package org.example.smart_house_inventory.temp.tempImpl;
 
 import org.example.entity.Temperature;
-import org.example.smart_house_inventory.Temp;
+import org.example.smart_house_inventory.temp.Temp;
 import org.example.state.State;
 
 public class TempAirImpl implements Temp {

@@ -1,14 +1,16 @@
 package org.example.abstract_factory;
 
-import org.example.smart_house_inventory.Curtain;
-import org.example.smart_house_inventory.curtainImpl.CurtainImpl;
-import org.example.smart_house_inventory.lightLevelImpl.LightLevelImpl;
-import org.example.smart_house_inventory.tempImpl.TempAirImpl;
-import org.example.smart_house_inventory.tempImpl.TempFloorImpl;
+import exception.TxtException;
+import org.example.smart_house_inventory.Device;
+import org.example.smart_house_inventory.curtain.curtainImpl.CurtainImpl;
+import org.example.smart_house_inventory.lightLevel.lightLevelImpl.LightLevelImpl;
+import org.example.smart_house_inventory.temp.tempImpl.TempAirImpl;
+import org.example.smart_house_inventory.temp.tempImpl.TempFloorImpl;
 
-public interface InventoryFactory {
+public interface SmartHouseFactory {
     CurtainImpl createCurtain();
     LightLevelImpl createLight();
     TempAirImpl createConditioner();
     TempFloorImpl createTempFloor();
+    Device createDevice(String fileTxt) throws TxtException;
 }

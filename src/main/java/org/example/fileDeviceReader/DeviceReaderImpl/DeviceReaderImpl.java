@@ -1,6 +1,5 @@
 package org.example.fileDeviceReader.DeviceReaderImpl;
 
-import exception.TxtException;
 import org.example.fileDeviceReader.DeviceReader;
 
 import java.io.BufferedReader;
@@ -10,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DeviceReaderFactory implements DeviceReader {
+public class DeviceReaderImpl implements DeviceReader {
     @Override
     public List<String> inventory(String txtFile) {
         List<String> inventory = new ArrayList<>();

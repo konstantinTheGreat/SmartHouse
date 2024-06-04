@@ -1,6 +1,6 @@
-package org.example.smart_house_inventory.curtainImpl;
+package org.example.smart_house_inventory.curtain.curtainImpl;
 
-import org.example.smart_house_inventory.Curtain;
+import org.example.smart_house_inventory.curtain.Curtain;
 import org.example.state.State;
 
 public class CurtainImpl implements Curtain {

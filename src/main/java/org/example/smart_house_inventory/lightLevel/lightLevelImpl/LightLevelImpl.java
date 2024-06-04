@@ -1,6 +1,6 @@
-package org.example.smart_house_inventory.lightLevelImpl;
+package org.example.smart_house_inventory.lightLevel.lightLevelImpl;
 
-import org.example.smart_house_inventory.LightLevel;
+import org.example.smart_house_inventory.lightLevel.LightLevel;
 import org.example.state.State;
 
 public class LightLevelImpl implements LightLevel {

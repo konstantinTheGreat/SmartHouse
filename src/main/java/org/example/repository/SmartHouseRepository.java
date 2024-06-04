@@ -1,2 +1,5 @@
-package org.example.repository;public class SmartHouseRepository {
+package org.example.repository;
+
+public interface SmartHouseRepository {
+
 }
