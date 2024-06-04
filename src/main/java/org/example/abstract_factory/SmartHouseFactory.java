@@ -1,6 +1,6 @@
 package org.example.abstract_factory;
 
-import exception.TxtException;
+import org.example.exception.TxtException;
 import org.example.smart_house_inventory.Device;
 import org.example.smart_house_inventory.curtain.curtainImpl.CurtainImpl;
 import org.example.smart_house_inventory.lightLevel.lightLevelImpl.LightLevelImpl;

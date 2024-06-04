@@ -1,6 +1,6 @@
 package org.example.fileDeviceReader;
 
-import exception.TxtException;
+import org.example.exception.TxtException;
 
 import java.util.List;
 

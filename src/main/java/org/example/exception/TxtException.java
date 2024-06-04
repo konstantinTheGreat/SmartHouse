@@ -1,4 +1,4 @@
-package exception;
+package org.example.exception;
 
 public class TxtException extends Exception{
     public TxtException() {

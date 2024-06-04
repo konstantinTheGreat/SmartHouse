@@ -1,6 +1,6 @@
 package org.example.abstract_factory.smartHouseFactoryImpl;
 
-import exception.TxtException;
+import org.example.exception.TxtException;
 import org.example.abstract_factory.SmartHouseFactory;
 import org.example.fileDeviceReader.DeviceReader;
 import org.example.fileDeviceReader.DeviceReaderImpl.DeviceReaderImpl;
