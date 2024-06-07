@@ -4,6 +4,5 @@ import org.example.state.State;
 
 public interface Device {
     public void changeState();
-
     public State getState();
 }
