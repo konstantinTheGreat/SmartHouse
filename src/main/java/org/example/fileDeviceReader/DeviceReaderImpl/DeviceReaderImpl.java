@@ -32,7 +32,7 @@ public class DeviceReaderImpl implements DeviceReader {
                 inventory.add(line.substring(startIndex, endIndex));
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new TxtException(e);
         }
 
         return inventory;

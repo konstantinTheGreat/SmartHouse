@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.example.smart_house_inventory;
 
 import java.util.Objects;
 

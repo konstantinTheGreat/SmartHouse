@@ -7,14 +7,15 @@ import org.example.fileDeviceReader.DeviceReaderImpl.DeviceReaderImpl;
 import org.example.smart_house_inventory.Device;
 import org.example.smart_house_inventory.curtain.curtainImpl.CurtainImpl;
 import org.example.smart_house_inventory.lightLevel.lightLevelImpl.LightLevelImpl;
-import org.example.smart_house_inventory.temp.tempImpl.TempAirImpl;
-import org.example.smart_house_inventory.temp.tempImpl.TempFloorImpl;
+import org.example.smart_house_inventory.temperature.temperatureImpl.TemperatureAirImpl;
+import org.example.smart_house_inventory.temperature.temperatureImpl.TemperatureFloorImpl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SmartHouseFactoryImpl implements SmartHouseFactory {
     private List<String> inventory;
-    private final DeviceReader deviceReader = new DeviceReaderImpl();
+    private final DeviceReader deviceReader = new DeviceReaderImpl(); // create in main
     @Override
     public CurtainImpl createCurtain() {
         return new CurtainImpl();
@@ -26,26 +27,33 @@ public class SmartHouseFactoryImpl implements SmartHouseFactory {
     }
 
     @Override
-    public TempAirImpl createConditioner() {
-        return new TempAirImpl();
+    public TemperatureAirImpl createConditioner() {
+        return new TemperatureAirImpl();
     }
 
     @Override
-    public TempFloorImpl createTempFloor() {
-        return new TempFloorImpl();
+    public TemperatureFloorImpl createTempFloor() {
+        return new TemperatureFloorImpl();
     }
 
     @Override
-    public Device createDevice(String fileTxt) throws TxtException {
-        this.inventory = this.deviceReader.inventory(fileTxt);
-        String device = inventory.get(0);
-        inventory.remove(0);
-        return switch (device) {
-            case "curtain" -> createCurtain();
-            case "floorHeat" -> createTempFloor();
-            case "conditioner" -> createConditioner();
-            case "lightLevel" -> createLight();
-            default -> null;
-        };
+    public List<Device> createDevice(List<String> devicesNames) {
+
+        List<Device> devices = new ArrayList<>();
+
+        for (String devicesName : devicesNames) {
+            Device device = null;
+            switch (devicesName) {
+                case "curtain" -> device = createCurtain();
+                case "floorHear" -> device = createTempFloor();
+                case "conditioner" -> device = createConditioner();
+                case "lightLevel" -> device = createLight();
+            }
+            if (device != null) {
+                devices.add(device);
+            }
+        }
+
+        return devices;
     }
 }

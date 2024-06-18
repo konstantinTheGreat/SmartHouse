@@ -1,14 +1,13 @@
-package org.example.smart_house_inventory.temp.tempImpl;
+package org.example.smart_house_inventory.temperature.temperatureImpl;
 
-import org.example.entity.Temperature;
-import org.example.smart_house_inventory.temp.Temp;
+import org.example.smart_house_inventory.temperature.Temperature;
 import org.example.state.State;
 
-public class TempAirImpl implements Temp {
+public class TemperatureFloorImpl implements Temperature {
     private State state = State.change(this);
-    private final Temperature temperature = new Temperature();
+    private final org.example.smart_house_inventory.Temperature temperature = new org.example.smart_house_inventory.Temperature();
 
-    public TempAirImpl() {}
+    public TemperatureFloorImpl() {}
 
     @Override
     public void changeState() {
@@ -20,7 +19,7 @@ public class TempAirImpl implements Temp {
         return this.state;
     }
 
-    public Temperature getTemperature() {
+    public org.example.smart_house_inventory.Temperature getTemperature() {
         return temperature;
     }
 

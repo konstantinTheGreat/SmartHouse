@@ -7,16 +7,7 @@ public enum State {
     OFF;
 
     public static State change(Device device){
-        return stateChange(device);
+        return (device.getState() == null || device.getState() == ON) ? OFF : ON;
     }
-
-    private static State stateChange(Device device) {
-        if(device.getState() == null || device.getState() == ON) {
-            return OFF;
-        } else {
-            return ON;
-        }
-    }
-
 
 }
